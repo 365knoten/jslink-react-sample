@@ -1,0 +1,26 @@
+{
+  "name": "jslink-react-sample",
+  "version": "1.0.0",
+  "description": "A sample that demonstrates how to use React Component in a SharePoint JSLink form ",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Sven Sieverding",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^2.4.1",
+    "webpack": "^3.8.1",
+    "awesome-typescript-loader": "^3.4.0",
+    "@types/react": "^15.0.38",
+    "@types/react-dom": "^15.5.1",
+    "@types/sharepoint": "^2016.0.0"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dnd": "^2.4.0",
+    "react-dnd-html5-backend": "^2.4.1",
+    "react-dom": "^15.6.1",
+    "office-ui-fabric-react": "^5.45.3"
+  }
+}
